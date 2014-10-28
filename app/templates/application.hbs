@@ -1,0 +1,42 @@
+<div class="navbar navbar-default">
+  <div class="navbar-header">
+<!--     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button> -->
+      <div class="btn-toolbar">
+        <div class="btn-group">
+          {{#link-to 'index' class="btn btn-default"}}<!--<span class="glyphicon glyphicon-fire red"></span>--><b>bridge</b>{{/link-to}}
+          {{#link-to 'room' tabindex="3" class="btn btn-default" data-toggle="tooltip" title="ROOM"}}<!-- <span class="glyphicon glyphicon-list-alt white"></span> -->ROOM{{/link-to}}
+          {{#link-to 'bidding' tabindex="2" class="btn btn-default" data-toggle="tooltip" title="BID"}}<!-- <span class="glyphicon glyphicon-hand-up white"></span> -->BIDDING{{/link-to}}
+        </div>
+      </div>
+  </div>
+<!-- <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li tabindex="2">{{#link-to 'room'}}TABLE{{/link-to}}</li>
+      <li tabindex="3">{{#link-to 'bidding'}}BIDDING{{/link-to}}</li>   -->        
+<!--       <li tabindex="2">{{#link-to 'room'}}TABLE{{/link-to}}</li>
+      <li tabindex="3">{{#link-to 'index'}}BIDDING{{/link-to}}</li>
+      <li tabindex="3">{{#link-to 'players'}}PLAYERS{{/link-to}}</li>
+      <li tabindex="4">{{#link-to 'player'}}PLAYER{{/link-to}}</li>
+      <li tabindex="5">{{#link-to 'game'}}GAME{{/link-to}}</li> -->
+<!--       <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-header">Dropdown header</li>
+          <li><a href="#">Separated link</a></li>
+          <li><a href="#">One more separated link</a></li>
+        </ul>
+      </li> -->
+<!--     </ul>
+  </div> -->
+
+</div>
+
+{{outlet}}

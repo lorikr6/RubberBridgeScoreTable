@@ -1,0 +1,94 @@
+html, body {
+  margin: 0px;
+}
+
+table.total {
+  position:absolute;
+  bottom: 0px;
+}
+
+div.scoreTable {
+    min-height: 50%;
+    padding-bottom: 50px;
+    /*position: fixed;*/
+    bottom: 10px;
+}
+
+
+div.scrollable {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+
+
+.white {
+	color:white;
+	font-size: 26px		!important;
+	padding-top: 0px		!important;
+}
+
+.red {
+	color:red;
+	font-size: 26px		!important;
+	font-weight: 10px;
+}
+
+.black {
+	color:black;
+	font-size: 18px		!important;
+	font-weight: 10px;
+}
+
+.spacer {
+	margin: 2px 2px;
+}
+#stopPlayer {
+	display: none;
+}
+
+#scoring {
+	display: none;
+}
+
+#bidding {
+	display: block;
+}
+
+.hearts {
+	content: url(img/hearts-icon.png) no-repeat;    
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;   
+    /*max-width: 100%;*/
+    width: 15px;
+  	height: auto;	
+}
+
+.spades {
+    content: url(img/spades-icon.png) no-repeat;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;   
+    /*max-width: 100%;*/
+    width: 15px;
+  	height: auto;	 	
+}
+
+.diamonds {
+    content: url(img/diamond-icon.png) no-repeat;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;  
+    /*max-width: 100%;*/
+    width: 15px;
+  	height: auto;	
+}
+
+.clubs {
+    content: url(img/clubs-icon.png) no-repeat;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;   
+  	/*max-width: 100%;*/
+    width: 15px;
+  	height: auto;	
+}
+
+/*.hearts, .diamonds, .spades, .clubs { width: 37px !important;}*/
